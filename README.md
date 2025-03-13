@@ -83,6 +83,8 @@ npm install
 npm start
 ```
 
+---
+
 ## 📚 O que foi implementado?
 
 - **Node.js**
@@ -91,6 +93,8 @@ npm start
 - **Módulo `fs` para persistência**
 - **Regex para rotas dinâmicas**
 - **Biblioteca `csv-parse` para importação de CSV**
+
+---
 
 ## 🎯 Conclusão
 

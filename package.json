@@ -1,0 +1,30 @@
+{
+  "name": "nodejs-crud-tasks",
+  "version": "1.0.0",
+  "author": "Evaldo-JR",
+  "description": "API RESTful para gerenciamento de tarefas usando Node.js puro.",
+  "main": "src/server.js",
+  "scripts": {
+    "dev": "node --watch src/server.js",
+    "start": "node src/server.js"
+  },
+  "keywords": [
+    "nodejs",
+    "crud",
+    "tasks",
+    "api",
+    "rest"
+  ],
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "csv-parse": "^5.6.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/seu-usuario/nodejs-crud-tasks.git"
+  },
+  "bugs": {
+    "url": "https://github.com/seu-usuario/nodejs-crud-tasks/issues"
+  }
+}

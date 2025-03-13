@@ -62,13 +62,27 @@ Aqui estão os endpoints disponíveis:
 
 ---
 
-## 🚀 Como Executar o Projeto
+## 📂 Estrutura do Projeto
+```
+/src
+ ├── database.js         # Simulação de um banco de dados em JSON
+ ├── routes.js           # Definição das rotas da API
+ ├── server.js           # Configuração do servidor HTTP
+ ├── middlewares
+ │    ├── json.js       # Middleware para processar requisições JSON
+ ├── utils
+ │    ├── build-route-path.js  # Helper para criar rotas dinâmicas
+ │    ├── import-csv.js        # Função para importar tarefas via CSV
+ ├── tasks.csv           # Arquivo de exemplo para importação de tarefas
+```
+
+## ⚡ Como Executar o Projeto
 
 ### **1️⃣ Clonar o Repositório**
 
 ```bash
-git clone https://github.com/seu-usuario/desafio-nodejs-crud.git
-cd desafio-nodejs-crud
+git clone https://github.com/Evaldo-JR/01-challenge-nodejs-rocketseat.git
+cd 01-challenge-nodejs-rocketseat
 ```
 
 ### **2️⃣ Instalar Dependências**
@@ -85,7 +99,7 @@ npm start
 
 ---
 
-## 📚 O que foi implementado?
+## 🛠 Tecnologias Utilizadas
 
 - **Node.js**
 - **Módulo `http` nativo**
@@ -104,3 +118,15 @@ Foi desafiador, mas muito enriquecedor. Agora estou ainda mais empolgado para ap
 Se você quiser sugerir melhorias ou discutir alguma parte do código, fique à vontade para abrir uma issue ou entrar em contato! 😃
 
 🚀 Bora codar! 🚀
+
+---
+
+## 📬 Contato
+
+Me acompanhe na jornada e conecte-se comigo:
+
+📧 Email: evaldo_jux@hotmail.com
+
+🔗 LinkedIn: https://www.linkedin.com/in/evaldojr/
+
+🐙 GitHub: http://github.com/Evaldo-JR
